@@ -49,6 +49,7 @@ function shuffleStars() {
     star.style.left = left + "%";
   });
 }
+shuffleStars();
 setInterval(shuffleStars, 8000);
 
 function cycleFloatingStars() {
