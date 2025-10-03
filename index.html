@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Starry Wishes for Aryan 🌌</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="sky">
+    <h1 class="title">Choose a Star to Reveal Your Gift ✨</h1>
+
+    <div class="star" data-message="A wish coupon 🧞" data-img="images/wish.jpg"></div>
+    <div class="star" data-message="Any skincare item 🧴" data-img="images/skincare.avif"></div>
+    <div class="star" data-message="A perfume 🙈" data-img="images/perfume.jpeg"></div>
+    <div class="star" data-message="A cute T-shirt 👕" data-img="images/tshirt.png"></div>
+    <div class="star" data-message="Surprise Gift ✨" data-img="images/surprise.png"></div>
+    <div class="star" data-message="Dinner date 🍽️" data-img="images/dinner.jpg"></div>
+    <div class="star" data-message="MEEE 💞" data-img="images/me.jpeg"></div>
+    <div class="star" data-message="Wallet 💳" data-img="images/wallet.avif"></div>
+    <div class="star" data-message="Ooopsieee... Wrong star 💫" data-img="images/wrong.jpg"></div>
+
+  </div>
+
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <span class="close" id="close">&times;</span>
+      <img id="popup-img" src="" alt="Gift" />
+      <p id="popup-message"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
